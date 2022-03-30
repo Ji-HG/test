@@ -35,7 +35,7 @@ Token get_token()    // read a token from cin
             return Token('8',val);   // let '8' represent "a number"
         }
     default:
-        error("GOOD TOKEN");
+        error("good");
     }
 }
 
